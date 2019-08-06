@@ -1,0 +1,9 @@
+a=input()
+list1=['a','e','i','o','u']
+list2=['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+if a in list1:
+             print("vowel")
+elif a in list2:
+               print("Consonants")
+else:
+    print("invalid")
