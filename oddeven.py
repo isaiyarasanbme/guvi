@@ -1,6 +1,9 @@
 a=int(input())
-if a%2==0:
-         print('EVEN')
+if a>0:
+       if a%2==0:
+                print('Even')
 
-else :
-     print("ODD")
+       elif a%2!=0:
+                  print("Odd")
+else:
+     print("invalid")
